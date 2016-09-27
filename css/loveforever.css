@@ -4,7 +4,7 @@ body {
 }
 
 body {
-	background-color: #bcf8f7;
+	background: -webkit-linear-gradient(top right,#dab,#4ac,#c63);
 }
 
 #readme {
