@@ -2,9 +2,31 @@ html,
 body {
 	height: 100%;
 }
+ul,
+li {
+	text-indent: 0;
+	text-decoration: none;
+	margin: 0;
+	padding: 0
+}
+
+img {
+	border: 0
+}
 
 body {
-	background: -webkit-linear-gradient(top right,#dab,#4ac,#c63);
+	background: -webkit-linear-gradient(bottom, #fff, #2e2c2c, #2e2c2c, #2e2c2c);
+	color: #999;
+	font: 100%/18px helvetica, arial, sans-serif
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 20
 }
 
 #readme {
