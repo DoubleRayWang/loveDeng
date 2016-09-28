@@ -19,7 +19,7 @@ function drawText(){
 	var text;
 	var textUrl = getQueryString('text');
 	
-	text = textUrl?textUrl:"Love you灯灯";
+	text = textUrl?textUrl:"雷雷 Love 灯灯";
 	textInput.value=text;
 	
 	context.clearRect(0, 0, canvas.width,canvas.height);
